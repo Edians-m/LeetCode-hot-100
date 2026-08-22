@@ -45,3 +45,20 @@ public:
         reverse(nums, k, n-1);
     }
 };
+
+int main() {
+    int n, k;
+    cin >> n >> k;
+
+    vector<int> nums(n);
+    for(int i = 0; i < n; i++) {
+        cin >> nums[i];
+    }
+
+    Solution02 s;
+    s.rotate(nums, k);
+
+    for(int i = 0; i < n; i++) {
+        cout << nums[i] << " ";
+    }
+}
