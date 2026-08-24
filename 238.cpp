@@ -40,4 +40,3 @@ int main() {
         cout << ans[i] << " ";
     }
 }
-//g++ --version  gdb --version
