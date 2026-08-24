@@ -1,3 +1,4 @@
+// 合并区间
 #include <iostream>
 #include <vector>
 #include <algorithm>
